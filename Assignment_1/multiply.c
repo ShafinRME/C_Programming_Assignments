@@ -2,10 +2,11 @@
 
 int main()
 {
-    long long int a, b, multn;
+    long long int a, b, mult;
     scanf("%lld %lld", &a, &b);
-    multn = a * b;
-    printf("%lld", multn);
 
+    mult = a * b;
+
+    printf("%lld\n", mult);
     return 0;
 }
